@@ -25,7 +25,7 @@ const featuredKolams = [
     type: 'Design a Kolam',
     icon: DraftingCompass,
     description: 'design your own kolams',
-    link: '#',
+    link: '/design-kolam',
   },
 ];
 

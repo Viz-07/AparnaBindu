@@ -10,6 +10,7 @@ import RecreateKolam from './components/RecreateKolam';
 import PulliKolam from './components/PulliKolam';
 import OneFiveOne from './components/OneFiveOne';
 import AboutUs from './components/About';
+import KolamDesigner from './components/KolamDesigner';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/gallery/pulli" element={<PulliKolam />} />
           <Route path="/database/1-5-1" element={<OneFiveOne />} />
           <Route path="/aboutus" element={<AboutUs />} /> 
+          <Route path="/design-kolam" element={<KolamDesigner />} />
         </Routes>
       </div>
     </Router>
